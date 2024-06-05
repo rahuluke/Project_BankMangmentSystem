@@ -1,0 +1,16 @@
+Create database banksystem;
+use banksystem;
+create table Signup(form_no varchar(20), name varchar(30),DOB varchar(15), gender varchar(12), email varchar(30), Address varchar(60), city varchar(30), state varchar(20), pin varchar(20));
+select * from signup;
+
+create table Signuptwo(form_no varchar(20), religion varchar(30),category varchar(15), income varchar(12), education varchar(30), occupation varchar(60), pan varchar(30), aadhar varchar(20), seniorcitizen varchar(20),existing_account varchar(20));
+select * from Signuptwo;
+
+create table Singupthree(form_no varchar(20), account_Type varchar(20), card_number varchar(20), pin varchar(30), facility varchar(200));
+select * from Singupthree;
+
+create table login(form_no varchar(30),	card_number varchar(50), pin varchar(30));
+select * from login;
+
+create table bank(pin varchar(30),	date varchar(50), type varchar(30), amount varchar(30));
+select * from bank;
